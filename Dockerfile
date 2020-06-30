@@ -1,4 +1,4 @@
-FROM ibmcom/websphere-liberty:kernel-java8-openj9-ubi
+FROM docker.io/ibmcom/websphere-liberty:kernel-java8-openj9-ubi
 
 # Add my app and config
 COPY --chown=1001:0  Sample1.war /config/dropins/
